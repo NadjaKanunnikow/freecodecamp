@@ -24,7 +24,8 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function goStore() {
-  console.log("Going to store.");
+  const button1 = document.querySelector("#button1");
+  button1.innerText = "Buy 10 health (10 gold)";
 }
 
 function goCave() {
